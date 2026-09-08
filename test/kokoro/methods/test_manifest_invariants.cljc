@@ -3,7 +3,7 @@
   70-tools/scripts/audit/test_kokoro_invariants.py). Reads manifest.edn (:actor/manifest
   blob); the jsonld is retired. Lexicon-hygiene checks stay in the Python audit suite."
   (:require [clojure.test :refer [deftest is run-tests]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.edn :as edn]))
 
 (def ^:private here (.getParentFile (java.io.File. ^String *file*)))
