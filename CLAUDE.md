@@ -184,7 +184,7 @@ cycle.
 
 **R0 status**: standalone EDN contracts plus dry-run social cell. Runtime activation
 belongs in its owning engine repository and must consume this actor through the west checkout.
-Run this repository's complete suite with `bb --classpath src:test run_tests.clj`.
+Run this repository's complete suite with `bb --classpath src:test run_tests.cljk`.
 
 ## Related Files
 
