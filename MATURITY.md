@@ -15,7 +15,7 @@ honest framing (G8): できていないことは「未」と明記する。
 **worldwide crisis-support directory + machine floor + verification workflow。**
 `registry/support-lines.seed.edn` の世界規模 crisis-support
 ディレクトリ(127件 / 31管轄 + 国際ディレクトリ; 全件 `unverified-seed`, G14)に対し、
-fail-closed Clojure/EDN 不変条件 `test/kokoro/registry_seed_test.clj`
+fail-closed Clojure/EDN 不変条件 `test/kokoro/registry_seed_test.cljk`
 (parse/非空 lines · lineId 一意 · 全件 unverified-seed · contact+https
 provenance+ISO lastVerified · ≥12管轄 · supportKind 許可集合 · notes 非空+非臨床
 support-routing 境界参照 · 整数 freshnessWindowDays) を追加し、G14 三層人手チェックリスト
