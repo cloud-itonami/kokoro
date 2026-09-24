@@ -1,7 +1,7 @@
 (ns kokoro.registry-seed-test
   (:require [clojure.edn :as edn]
             [kotoba.lang.text :as str]
-            [clojure.test :refer [deftest is testing]]))
+            [kotoba.test :refer [deftest is testing]]))
 
 (def seed (edn/read-string (slurp "registry/support-lines.seed.edn")))
 (def lines (get seed "lines"))
