@@ -1,7 +1,7 @@
 (ns kokoro.lexicon-invariants-test
   (:require [kotoba.lang.edn :as edn]
             [kotoba.test :refer [deftest is testing]]
-            [clojure.java.io :as io]))
+            [kotoba.io :as io]))
 
 (defn lexicon [stem]
   (edn/read-string (slurp (io/file "lex" (str stem ".edn")))))
@@ -41,9 +41,9 @@
     (is (false? (get-in props ["surveillanceBasedMonitoring" "const"])))))
 
 (deftest lexicon-hygiene
-  (doseq [file (filter #(and (.isFile %) (.endsWith (.getName %) ".edn"))
-                       (file-seq (io/file "lex")))]
-    (let [stem (.replace (.getName file) ".edn" "")
+  (doseq [file (filter #(and (io/file? %) (.endsWith (io/file-name %) ".edn"))
+                       (io/file-seq (io/file "lex")))]
+    (let [stem (.replace (io/file-name file) ".edn" "")
           doc (edn/read-string (slurp file))]
       (testing stem
         (is (= (str "com.etzhayyim.kokoro." stem) (get doc "id")))

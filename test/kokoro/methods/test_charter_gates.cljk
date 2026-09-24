@@ -21,7 +21,7 @@
   Touches neither the substrate-wide no-server-key (G7-substrate) nor Murakumo-only (G6-substrate)
   invariants — kokoro holds no key and is human-in-loop by construction."
   (:require [kotoba.test :refer [deftest is run-tests]]
-            [clojure.set :as set]
+            [kotoba.lang.coll :as set]
             [kotoba.lang.edn :as edn]))
 
 #?(:clj
