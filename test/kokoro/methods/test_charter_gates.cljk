@@ -22,7 +22,7 @@
   invariants — kokoro holds no key and is human-in-loop by construction."
   (:require [kotoba.test :refer [deftest is run-tests]]
             [clojure.set :as set]
-            [clojure.edn :as edn]))
+            [kotoba.lang.edn :as edn]))
 
 #?(:clj
    (do
