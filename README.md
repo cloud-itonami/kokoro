@@ -113,7 +113,7 @@ See ADR-2605263700 §6.
 ## Related Files
 
 - `manifest.edn` (canonical)
-- `CLAUDE.md`
+- `AGENTS.md`
 - `lex/` (5 canonical EDN lexicons)
 - `/90-docs/adr/2605263700-kokoro-mental-health-tier-b-actor-r0.md`
 - `/90-docs/adr/2605263400-musubi-covenant-ceremony-tier-b-actor-r0.md` — grief TIGHT pair
@@ -121,4 +121,4 @@ See ADR-2605263700 §6.
 - `/90-docs/adr/2605260100-mitate-diagnostic-routing-charter.md` — acute crisis G5 cross-actor
 - `/90-docs/adr/2605263200-kazaori-disaster-response-tier-b-actor-r0.md` — post-emergency cross-actor (path-reserved kokoro at R0)
 - `/CHARTER-RIDER.md` §2(e) + §2(c) — G7 + G8 + G10 sources
-- `/CLAUDE.md` — Status table row 76
+- `/AGENTS.md` — Status table row 76
