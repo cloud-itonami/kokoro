@@ -1,4 +1,4 @@
-# com-etzhayyim-kokoro — CLAUDE.md
+# com-etzhayyim-kokoro — AGENTS.md
 
 ## Identity
 
@@ -199,4 +199,4 @@ Run this repository's complete suite with `kbb --classpath src:test run_tests.cl
 - `/90-docs/adr/2605263200-kazaori-disaster-response-tier-b-actor-r0.md` — post-emergency cross-actor (path-reserved kokoro at R0)
 - `/90-docs/adr/2605262700-chigiri-legal-procedure-tier-b-actor-r0.md` — G14 UPL-equivalent pattern shared
 - `/CHARTER-RIDER.md` §2(e) + §2(c) + §2(f) + §2(h) — G7 + G8 + G10 + G5 sources
-- `/CLAUDE.md` — Status table row 76
+- `/AGENTS.md` — Status table row 76
